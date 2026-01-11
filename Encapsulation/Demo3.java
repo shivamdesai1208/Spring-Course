@@ -30,6 +30,18 @@ public class Demo3
     public static void main(String[] args) 
     {
         System.out.println("Encapsulation example");
+
+        Student std1 = new Student();
+        std1.setRollNumber(1);
+        std1.setName("Shivam");
+        
+
+        Student std2 = new Student();
+        std2.setRollNumber(2);
+        std2.setName("Abhimanyu");
+
+        System.out.println(std1.getRollNumber() + " " + std1.getRollNumber());
+        System.out.println(std12.getRollNumber() + " " + std2.getRollNumber());
         
     }
     
