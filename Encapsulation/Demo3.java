@@ -40,8 +40,8 @@ public class Demo3
         std2.setRollNumber(2);
         std2.setName("Abhimanyu");
 
-        System.out.println(std1.getRollNumber() + " " + std1.getRollNumber());
-        System.out.println(std12.getRollNumber() + " " + std2.getRollNumber());
+        System.out.println(std1.getRollNumber() + " " + std1.getName());
+        System.out.println(std2.getRollNumber() + " " + std2.getName());
         
     }
     
