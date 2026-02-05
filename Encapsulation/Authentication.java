@@ -36,8 +36,6 @@ class Details
         companyName = cN;
     }
 
-    
-
 }
 
 public class Authentication 
@@ -47,11 +45,12 @@ public class Authentication
 
         Details D1 = new Details(); 
         Details D2 = new Details("Shivam1208", "shivam111", "NewShivam"); 
-        
+        Details D3 = new Details("Ramyata0801", "ramyata111", "NewShivam"); 
+
         D1.show1();
         D2.show1();
+        D3.show1();
 
         
     }
-    
 }
