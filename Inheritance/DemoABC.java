@@ -1,0 +1,21 @@
+class A
+{
+    public A()
+    {
+        System.out.println("in A");
+    }
+
+
+}
+
+class B extends A
+{
+    public B()
+    {
+        System.out.println("in B");
+    }
+
+}
+public class DemoABC {
+    
+}
