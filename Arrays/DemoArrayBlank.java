@@ -5,6 +5,9 @@ public class DemoArrayBlank
         int nums[] = new int [4];
 
         System.out.println(nums[1]);
+        System.out.println(nums[2]);
+
+
 
         int a = nums.length;
 
