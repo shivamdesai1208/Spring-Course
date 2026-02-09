@@ -9,6 +9,11 @@ class Phones
         System.out.println(brand + " : " + price + " : " + name);
     }
 
+    public static void show1(Phones obj)
+    {
+        System.out.println("Inside static method");
+        System.out.println(obj.brand + " : " + obj.price + " : " + name);
+    }
 }
 
 public class StaticDemo 
@@ -28,6 +33,10 @@ public class StaticDemo
 
         P1.show();
         P2.show();
+
+        System.out.println();
+
+        Phones.show1(P1);
         
     }
 
