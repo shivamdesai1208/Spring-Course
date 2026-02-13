@@ -14,6 +14,8 @@ public class DemoCalc
         double r5 = C1.power(4,2);
 
         System.out.println(r1 + " " + r2 + " " + r3 + " " + r4 + " " + r5);
+
+        System.out.println("Temp line");
     }
     
 }
