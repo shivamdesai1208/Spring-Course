@@ -2,7 +2,7 @@ class ShivamException extends Exception
 {
     public ShivamException(String string)
     {
-        super(string)
+        super(string);
     }
 }
 
