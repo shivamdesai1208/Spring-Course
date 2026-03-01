@@ -1,8 +1,15 @@
+class ShivamException extends Exception
+{
+    public ShivamException(String string)
+    {
+        super(string)
+    }
+}
 
 public class Demo {
 
     public static void main(String[] args) {
-        int i = 2;
+        int i = 20;
         int j = 0;
 
         int nums [] = new int[5];
@@ -10,13 +17,16 @@ public class Demo {
         String str = null;
 
         try{
-            j = 18/i;
+            j = 18/20;
+            if (j == 0)
+                throw new ShivamException("I dont want  to print zero");
+
             System.out.println(nums[1]);
             System.out.println(nums[0]);
             System.out.println(str.length());
         }
-        catch(ArithmeticException e){
-            System.out.println("Cannot divide by zero.");
+        catch(ShivamException e){
+            System.out.println("Cannot divide by zero." + e);
         }
         catch(ArrayIndexOutOfBoundsException e){
             System.out.println("Stay in your limit");
